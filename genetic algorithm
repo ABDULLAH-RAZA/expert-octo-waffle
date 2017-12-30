@@ -236,6 +236,32 @@ class Candidate implements Comparable<Candidate> {
 	}
  
  
+ Output of above code 
  
- 
- 
+  Init population sorted
+— print
+gene=0001111101 fit=6
+gene=1110001011 fit=6
+gene=1010001111 fit=6
+gene=0011010101 fit=5
+gene=0011011001 fit=5
+gene=0011111000 fit=5
+gene=1101000010 fit=4
+gene=1100010001 fit=4
+gene=1001100010 fit=4
+gene=0010100001 fit=3
+
+Result
+— print
+gene=1111111111 fit=10
+gene=1111111111 fit=10
+gene=1111111111 fit=10
+gene=1111111111 fit=10
+gene=1111111111 fit=10
+gene=1111111111 fit=10
+gene=1111111111 fit=10
+gene=1111111111 fit=10
+gene=1111111111 fit=10
+gene=1111111111 fit=10
+gene=1111111111 fit=10
+Time: 0.536 sec.
